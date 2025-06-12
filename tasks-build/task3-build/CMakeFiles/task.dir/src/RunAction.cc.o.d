@@ -1,10 +1,6 @@
-CMakeFiles/task.dir/src/ActionInitialization.cc.o: \
- /user/g/gmribeiro/Geant4_Alghero/geant4-exercises/task1/src/ActionInitialization.cc \
+CMakeFiles/task.dir/src/RunAction.cc.o: \
+ /user/g/gmribeiro/Geant4_Alghero/geant4-exercises/task1/src/RunAction.cc \
  /usr/include/stdc-predef.h \
- /user/g/gmribeiro/Geant4_Alghero/geant4-exercises/task1/include/ActionInitialization.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4VUserActionInitialization.hh \
- /user/g/gmribeiro/Geant4_Alghero/geant4-exercises/task1/include/PrimaryGeneratorAction.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
  /user/g/gmribeiro/Geant4_Alghero/geant4-exercises/task1/include/RunAction.hh \
  /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4UserRunAction.hh \
  /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4Types.hh \
@@ -240,94 +236,10 @@ CMakeFiles/task.dir/src/ActionInitialization.cc.o: \
  /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4VAccumulable.icc \
  /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4MergeMode.hh \
  /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4Accumulable.icc \
- /user/g/gmribeiro/Geant4_Alghero/geant4-exercises/task1/include/StackingAction.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4UserStackingAction.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4ClassificationOfNewTrack.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4Track.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/trkdefs.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4ThreeVector.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/CLHEP/Vector/ThreeVector.h \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/CLHEP/Vector/defs.h \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/CLHEP/Vector/ThreeVector.icc \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4LogicalVolume.hh \
- /usr/include/c++/11/memory \
- /usr/include/c++/11/bits/stl_raw_storage_iter.h \
- /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \
- /usr/include/c++/11/bits/shared_ptr_atomic.h \
- /usr/include/c++/11/backward/auto_ptr.h \
- /usr/include/c++/11/pstl/glue_memory_defs.h \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4Region.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4GeomSplitter.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/geomwdefs.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4Region.icc \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4VPhysicalVolume.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/geomdefs.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4RotationMatrix.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/CLHEP/Vector/Rotation.h \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/CLHEP/Vector/RotationInterfaces.h \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/CLHEP/Vector/LorentzVector.h \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/CLHEP/Vector/LorentzVector.icc \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/CLHEP/Vector/ZMxpv.h \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/CLHEP/Vector/AxisAngle.h \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/CLHEP/Vector/AxisAngle.icc \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/CLHEP/Vector/RotationInterfaces.icc \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/CLHEP/Vector/RotationX.h \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/CLHEP/Vector/RotationX.icc \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/CLHEP/Vector/RotationY.h \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/CLHEP/Vector/RotationY.icc \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/CLHEP/Vector/RotationZ.h \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/CLHEP/Vector/RotationZ.icc \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/CLHEP/Vector/Rotation.icc \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4VPhysicalVolume.icc \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4LogicalVolume.icc \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4Allocator.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4AllocatorPool.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4DynamicParticle.hh \
+ /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4Gamma.hh \
  /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4ParticleDefinition.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4LorentzVector.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4Log.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4ParticleMomentum.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4ElectronOccupancy.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4DynamicParticle.icc \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4TrackStatus.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4TouchableHandle.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4VTouchable.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4VTouchable.icc \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4ReferenceCountedHandle.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4VUserTrackInformation.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4PhysicsModelCatalog.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4Material.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4Element.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4Isotope.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4IonisParamElm.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4IsotopeVector.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4ElementTable.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4ElementVector.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4MaterialPropertiesTable.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4MaterialPropertiesIndex.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4MaterialPropertyVector.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4PhysicsFreeVector.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4PhysicsVector.hh \
- /usr/include/c++/11/fstream \
- /usr/include/c++/11/x86_64-redhat-linux/bits/basic_file.h \
- /usr/include/c++/11/x86_64-redhat-linux/bits/c++io.h \
- /usr/include/c++/11/bits/fstream.tcc \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4PhysicsVectorType.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4PhysicsVector.icc \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4IonisParamMat.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4DensityEffectCalculator.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4SandiaTable.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4OrderedTable.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4DataVector.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4DataVector.icc \
- /usr/include/assert.h \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4MaterialTable.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4Track.icc \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4Step.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4StepPoint.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4SteppingControl.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4StepStatus.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4StepPoint.icc \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4TrackVector.hh \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4Step.icc \
- /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4Track.hh
+ /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4Electron.hh \
+ /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4AccumulableManager.hh \
+ /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4Accumulable.hh \
+ /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4AccumulableManager.icc \
+ /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4SystemOfUnits.hh

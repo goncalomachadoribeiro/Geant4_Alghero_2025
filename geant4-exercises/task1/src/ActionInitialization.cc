@@ -2,8 +2,8 @@
 #include "PrimaryGeneratorAction.hh"
 //! Optional user classes
 // Task 3a.1: uncomment the UserAction's headers
-// #include "RunAction.hh"
-// #include "StackingAction.hh"
+#include "RunAction.hh"
+#include "StackingAction.hh"
 
 // Task 4a.2: Include the header for SteppingAction
 //..
@@ -17,9 +17,9 @@ void ActionInitialization::Build() const
        keep them commented in tasks1-2 */
 
     // Task 3a.1: Uncomment the SetUserActions
-    //RunAction* theRunAction = new RunAction();
-    //SetUserAction(theRunAction);
-    //SetUserAction(new StackingAction(theRunAction));
+    RunAction* theRunAction = new RunAction();
+    SetUserAction(theRunAction);
+    SetUserAction(new StackingAction(theRunAction));
 
     // Task 4a.2: Add a properly initialized instance of SteppingAction
     // Notice: the constructor of SteppingAction takes a pointer to
@@ -34,5 +34,5 @@ void ActionInitialization::Build() const
 void ActionInitialization::BuildForMaster() const
 {
   // Task 3a.1: Uncomment the following line
-  //SetUserAction(new RunAction());
+  SetUserAction(new RunAction());
 }

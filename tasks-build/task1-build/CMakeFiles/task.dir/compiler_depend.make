@@ -1838,7 +1838,8 @@ CMakeFiles/task.dir/src/PhysicsList.cc.o: /user/g/gmribeiro/Geant4_Alghero/geant
   /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4ParticleChangeForDecay.hh \
   /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4DecayProcessType.hh \
   /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4ProductionCutsTable.hh \
-  /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4SystemOfUnits.hh
+  /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4SystemOfUnits.hh \
+  /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4EmLivermorePhysics.hh
 
 CMakeFiles/task.dir/src/PrimaryGeneratorAction.cc.o: /user/g/gmribeiro/Geant4_Alghero/geant4-exercises/task1/src/PrimaryGeneratorAction.cc \
   /usr/include/stdc-predef.h \
@@ -2374,6 +2375,8 @@ CMakeFiles/task.dir/src/PrimaryGeneratorAction.cc.o: /user/g/gmribeiro/Geant4_Al
 /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4VPrimaryGenerator.hh:
 
 /user/g/gmribeiro/Geant4_Alghero/geant4-exercises/task1/src/PrimaryGeneratorAction.cc:
+
+/cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4EmLivermorePhysics.hh:
 
 /cvmfs/sw.el9/ar/ix_e52680v3/gcc11/geant/4.11.1.3/b01/include/Geant4/G4DecayProcessType.hh:
 

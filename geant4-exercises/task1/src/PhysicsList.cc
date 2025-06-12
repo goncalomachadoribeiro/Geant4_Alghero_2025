@@ -9,24 +9,26 @@
 #include <G4EmLivermorePhysics.hh>
 
 // Task 3b.2: Include header for G4EmExtraPhysics
-//#include <G4...>
+#include <G4EmExtraPhysics.hh>
 
 // Task 3b.3: Include headers for hadronic physics
-// ...
+#include <G4HadronElasticPhysics.hh>
+#include <G4HadronPhysicsFTFP_BERT.hh>
 
 PhysicsList::PhysicsList()
 {
   // Standard EM physics 
-  RegisterPhysics(new G4EmStandardPhysics());
+  RegisterPhysics(new G4EmLivermorePhysics());
   
   // Default Decay Physics
   RegisterPhysics(new G4DecayPhysics());
     
   //Task 3b.2 (add G4EmExtraPhysics)
-  // ...
+  RegisterPhysics(new G4EmExtraPhysics());
 
   // Task 3b.3: Add hadronic physics
-  // ...
+  RegisterPhysics(new G4HadronElasticPhysics());
+  RegisterPhysics(new G4HadronPhysicsFTFP_BERT());
 }
 
 
