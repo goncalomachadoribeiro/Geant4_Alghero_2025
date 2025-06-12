@@ -1,0 +1,4 @@
+# This macro is executed automatically by the main program.
+#
+# It will be used to properly set up the interactive session (GUI)
+# (see task1b)
