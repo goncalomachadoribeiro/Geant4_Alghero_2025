@@ -1,0 +1,22 @@
+# This macro runs 100000 particles
+# Better not to try it with the visualization on.
+#
+# Run it using "./task macros/basiclong.mac"
+#
+/run/initialize
+#
+# In task2, you will add here custom commands to 
+# define the primary source
+#
+# Primary generator settings
+#
+/gps/particle gamma
+/gps/ene/mono 662 keV
+/gps/ang/type iso
+/gps/pos/type Volume
+/gps/pos/shape Sphere
+/gps/pos/centre 0. 0. 0. cm
+/gps/pos/radius 1. cm
+#
+/run/beamOn 100000
+

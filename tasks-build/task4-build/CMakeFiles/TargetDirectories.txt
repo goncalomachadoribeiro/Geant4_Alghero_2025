@@ -1,0 +1,7 @@
+/user/g/gmribeiro/Geant4_Alghero/tasks-build/task4-build/CMakeFiles/task.dir
+/user/g/gmribeiro/Geant4_Alghero/tasks-build/task4-build/CMakeFiles/edit_cache.dir
+/user/g/gmribeiro/Geant4_Alghero/tasks-build/task4-build/CMakeFiles/rebuild_cache.dir
+/user/g/gmribeiro/Geant4_Alghero/tasks-build/task4-build/CMakeFiles/list_install_components.dir
+/user/g/gmribeiro/Geant4_Alghero/tasks-build/task4-build/CMakeFiles/install.dir
+/user/g/gmribeiro/Geant4_Alghero/tasks-build/task4-build/CMakeFiles/install/local.dir
+/user/g/gmribeiro/Geant4_Alghero/tasks-build/task4-build/CMakeFiles/install/strip.dir
